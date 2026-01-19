@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nitin Bhardwaj | Mathematics Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #0f172a;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            color: #38bdf8;
+        }
+
+        
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        
+        #home {
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #home img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            border: 4px solid #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        #home h1 span {
+            color: #38bdf8;
+        }
+
+        
+        #about {
+            background: white;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        
+        #skills {
+            background: #020617;
+            color: white;
+        }
+
+        .skills-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 40px auto 0;
+        }
+
+        .skill {
+            background: #0f172a;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #38bdf8;
+            text-align: left;
+        }
+
+        .skill h3 {
+            margin-bottom: 10px;
+            color: #38bdf8;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <img src="" alt="Nitin Bhardwaj">
+        <h1>Hi, I'm <span>Nitin Bhardwaj</span></h1>
+        <p>Mathematics Student | SSC CGL Aspirant</p>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>
+            Main <strong>Mathematics ka student</strong> hoon aur 
+            <strong>SSC CGL</strong> ki taiyari kar raha hoon.  
+            Mujhe Quantitative Aptitude, Logical Reasoning aur 
+            problem solving me interest hai.  
+            Mera goal government job crack karna aur apne skills ko
+            daily improve karna hai.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h1>My Skills</h1>
+
+        <div class="skills-box">
+            <div class="skill">
+                <h3>Quantitative Aptitude</h3>
+                <p>Arithmetic, Algebra, Percentage, Ratio, Time & Work</p>
+            </div>
+
+            <div class="skill">
+                <h3>Mathematics</h3>
+                <p>Problem Solving, Speed Maths, Short Tricks</p>
+            </div>
+
+            <div class="skill">
+                <h3>Reasoning</h3>
+                <p>Logical & Analytical Reasoning for SSC Exams</p>
+            </div>
+
+            <div class="skill">
+                <h3>SSC CGL Preparation</h3>
+                <p>Mock Tests, Previous Year Questions, Accuracy & Speed</p>
+            </div>
+
+            <div class="skill">
+                <h3>Basic Computer</h3>
+                <p>MS Word, Excel, Internet & Online Test Practice</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 | Nitin Bhardwaj
+    </footer>
+
+</body>
+</html>
